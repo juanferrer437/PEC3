@@ -1,0 +1,37 @@
+{
+  "name": "pec1",
+  "version": "0.0.1",
+  "description": "pec1",
+  "source": "src/index.html",
+  "keywords": [
+    "pec1"
+  ],
+  "license": "pec1",
+  "author": "Juan Ferrer",
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions",
+    "not dead"
+  ],
+  "scripts": {
+    "parcel:dev": "parcel --open",
+    "parcel:build": "parcel build",
+    "clean": "rimraf dist .parcel-cache",
+    "start": "npm-run-all clean parcel:dev",
+    "build": "npm-run-all clean parcel:build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "latest",
+    "autoprefixer": "^10.4.4",
+    "browserlist": "^1.0.1",
+    "npm-run-all": "^4.1.5",
+    "parcel": "latest",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "cookieconsent": "^3.1.1",
+    "node-modules": "^0.0.1",
+    "parcel-dist-cleaner": "^1.0.6",
+    "tiny-slider": "^2.9.4"
+  }
+}
