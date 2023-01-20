@@ -249,6 +249,20 @@ a.hed2:hover {
   background-size: contain;
   background-position-x: center;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th {
+  background-color: black;
+  color:white;
+}
+
+table td {
+  border: 1px solid black;
+}
+
+
 
 /* menu ordenador */
 
