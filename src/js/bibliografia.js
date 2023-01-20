@@ -1,7 +1,8 @@
-$(document).ready( function () {
+
 
 const jsonData = require('./obras.json');
-let salida = "";
+let salida = ` <table id="tabla">
+<thead><th>Imagen</th><th>Año</th><th>Título no original (español)</th><th>Título original</th></thead><tbody></tbody>`;
 for (let element of jsonData) {
     if (element.id % 2 == 0) {
         if (element.id==14) {
@@ -14,16 +15,9 @@ for (let element of jsonData) {
         salida += `<tr class="alt"><td></td><td>${element.date}</td><td>${element.titulo}</td><td>${element.original}</td></tr>`;
     }
 }
+salida+=`</table>`;
+document.querySelector("#tabla").innerHTML=salida;
 
-
-salida += "</tbody></table>";
-    $("#tabla").append(salida);
-    $("#tabla").DataTable({
-        language: {
-            url:'https://cdn.datatables.net/plug-ins/1.13.1/i18n/es-ES.json'
-        }
-    });
-} );
 
 
 
