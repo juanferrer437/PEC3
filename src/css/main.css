@@ -327,6 +327,7 @@ a.hed2:hover {
     background: #000000 url("../images/logo/logo-big.webp") center 50% no-repeat;
   background-size: 4em;
   background-position-x: 10%;
+  font-size: 1.5em;
   }
 }
 
