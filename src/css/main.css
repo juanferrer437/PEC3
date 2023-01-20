@@ -49,7 +49,7 @@ footer li:last-child:after {
 
 header {
   color: white;
-  background: #000000 url("../images/logo/small.png") center 50% no-repeat;
+  background: #000000 url("../images/logo/logo-small.webp") center 50% no-repeat;
   padding: 1em 10%;
   margin: 0;
   background-size: 6em;
@@ -249,7 +249,7 @@ a.hed2:hover {
 
   header {
     color: white;
-    background: #000000 url("../images/logo/big.png") center 50% no-repeat;
+    background: #000000 url("../images/logo/logo-big.webp") center 50% no-repeat;
     padding: 1em 10%;
     margin: 0;
     background-size: 6em;
