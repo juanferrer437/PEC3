@@ -1,3 +1,4 @@
+import '@justinribeiro/lite-youtube';
 $(document).ready(function () {
     $(".toggle").on("click", function () {
         if ($(".item").hasClass("active")) {
