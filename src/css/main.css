@@ -1,7 +1,7 @@
 @import "npm:cookieconsent/build/cookieconsent.min.css";
 @import "npm:tiny-slider/dist/tiny-slider.css";
 
-@import "https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700";
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap";
 @import "https://use.fontawesome.com/releases/v5.8.1/css/all.css";
 body {
   font-family: "Noto Serif", serif;
